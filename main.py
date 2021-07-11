@@ -6,7 +6,7 @@ app = Flask(__name__) # define app as flask
 def home():
     return "This Is The Homepage" # return text
 
-@app.rout("/help") # our route eg: example.com/help
+@app.route("/help") # our route eg: example.com/help
 def help():
     return "This is the help page" # return text
 
